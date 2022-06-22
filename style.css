@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: rgb(43, 34, 34);
+    box-sizing: border-box;
+}
+  
+html {
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+}
+  
+body {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background-color: green;
+}
+  
+.header {
+    height: 60vh;
+    position:relative;
+}
+  
+.navbar {
+    height: 100px;
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    z-index: 10;
+    position: fixed;
+}
+  
+.navbar-box {
+    display:flex;
+    align-items:center;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+  
+.heading-tertiary {
+    font-size: 16px;
+}
+  
+.nav-list {
+    list-style: none;
+    font-size: 16px;
+}
+  
+.navbar-item {
+    display: inline-block;
+}
+  
+.navbar-link:visited,
+.navbar-link:link {
+    text-decoration: wavy;
+    color: rgb(0, 0, 0);
+    padding: 36px;
+    transition: all 0.2s ease;
+}
+  
+.navbar-link:hover {
+    background-color: rgb(150, 150, 226);
+    color: rgb(228, 195, 195);
+}
+  
+.navbar-link:visited,
+.navbar-link-reserve {
+    color: rgb(110, 110, 71);
+    padding: 24px 48px;
+    border: 1px solid skyblue;
+    border-radius: 200px;
+    box-shadow: 0 0 rgb(67, 168, 111);
+    text-shadow: 4.8px rgb(194, 194, 149);
+    transition: all 0.4s ease;
+}
+  
+.navbar-link-reserve:hover {
+    background-color: rgb(76, 107, 107);
+    color: beige;
+}
+  
+.toggle {
+    height: 100px;
+    width: 100px;
+}
+  
+.toggle div {
+    height: 10px;
+    width: 100%;
+    background-color: white;
+    margin: 16px;
+}
+
+.header-container {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    color: rgb(236, 240, 230);
+}
+
+.header-box{
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    transform: translate(-50% -50%);
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(8, 5, 5);
+}
+
+.heading-primary {
+    font-size: 60px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.Jerk-Chicken{
+    color: rgb(252, 252, 6);
+    font-weight: 900;
+    font-size: 90px;
+}
+.Lead { 
+    font-size: 30.4px;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+
+.Reserved-your-table-now:visited,
+.Reserved-your-table-now:link{
+    text-decoration: gold;
+    display: inline-block;
+    color: black;
+    font-size: 32px;
+    padding: 32px;
+    margin-top: 64px;
+    border: 1px solid rgb(206, 206, 104);
+
+    border-radius: 80px;
+    transition: all .3s ease;
+    box-shadow: yellow;
+    
+}
+
+
+/*menu*/
+
+.menu {
+    width: 100%;
+    padding: 160px 80px;
+    background-image: linear-gradient(to right bottom, black(255, 81. 0)yellow (225,0,0.5));
+}
+
+.menu-heading{
+    font-size: 192px;
+    text-align: center;
+    text-shadow: 1px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 800;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    justify-self: center;
+    grid-gap: 18px;
+}
+.header-secondary {
+    font-size: 112px;
+    text-transform: uppercase;
+    color: darkred;
+    text-align: center;
+}
+.menu-img {
+    height: 90px;
+    width: 90px;
+    background-size: cover;
+    background-position: left;
+    background-image:url(Jerk-Chicken.jpg) ;
+}
+
+.menu-container {
+    width: 100%;
+    height: 800px;
+    background-color: rgb(238, 235, 58);
+    border-radius: 5px;
+    box-shadow: 0 0 32px black;
+}
+.menu-container:hover{
+    box-shadow: 0 0 60px black;
+    transform: scale(1.07);
+}
+
+.menu-c {
+    font-size: 18px;
+    padding: 16px;
+    text-align: center;
+}
+.menu-title {
+    font-size: 36px;
+    text-align: center;
+}
+
+.price {  
+    font-size: 48px;
+    margin-top: 16px;
+    text-align: center;
+    color: black;
+
+}
+
+
+
+
+
+
+
+.right-img {
+    height: 252px;
+    width: 252px;
+    position: absolute;
+    top: 76px;
+    left: 76px;
+}
+  
+footer{
+    font-size: small;
+    
+    background-color: rgb(2, 2, 1);
+}
