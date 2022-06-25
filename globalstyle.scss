@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Poppins:ital,wght@0,300;1,500&family=Roboto:ital,wght@0,500;1,400&display=swap');
+
+html {
+    font-size: 12px;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+:root{
+    --green-1:green;
+    --yellow-1:yellow;
+    --yellow-2:greenyellow;
+    --black:black;
+    --black-2:rgb(31, 26, 26); 
+}
+
+body{
+    background-color: var(--green-1);
+    overflow: hidden;
+}
+section{
+    padding: 100px 0;
+}
+@media only screen and (min-width:400px ){
+    section{
+        padding: 50px 0;
+    }
+}
+.container {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'raleway', sans-serif;
+    font-weight: 400;
+    line-height: 23px;
+    font-size: 18px;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
