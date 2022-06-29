@@ -7,21 +7,14 @@ body {
     background-color: green;
 }
   
-.header {
-  height: 90vh;
-    position:relative;
-}
-  
-.navbar {
-    height: 100px;
-    width: 100%;
-    background-color: yellow;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 40px;
-    z-index: 10;
-    position: fixed;
+.header-container {
+  display: grid;
+  grid-auto-flow: column;
+  width: 100%;
+  background-color: yellow;
+  align-items: center;
+  padding: 0 40px;
+  z-index: 10;
 }
   
 .navbar-box {
@@ -69,19 +62,7 @@ body {
     text-shadow: 4.8px rgb(194, 194, 149);
     transition: all 0.4s ease;
 }
-  
-.navbar-link-reserve:hover {
-    background-color: rgb(76, 107, 107);
-    color: beige;
-}
-  
 
-.header-container {
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    color: rgb(248, 248, 247);
-}
 .video {
     width: 100%;
     height: 100%;
@@ -97,235 +78,7 @@ body {
     object-fit: cover;
   position: relative;
 }
-.menu-grid {
-    display: grid;
-    grid-template-rows: repeat(8, 1fr);
-    grid-template-columns: repeat(4, 1fr);
-    justify-self: center;
-    grid-gap: 15px;
-}
-.header-secondary {
-    font-size: 110px;
-    text-transform: uppercase;
-    color: darkred;
-    text-align: center;
-}
-.menu-img {
-    height: 200px;
-    width: 200px;
-    background-size: cover;
-    background-position: left;
-    background-image:url(Jerk-Chicken.jpg);
-}
-.menu-img2 {
-    height: 200px;
-    width: 200px;
-    background-size: cover;
-    background-position: left;
-    background-image:url(Jerk-Pork.jpg);
-}
-.menu-img3 {
-    height: 200px;
-    width: 200px;
-    background-size: cover;
-    background-position: left;
-    background-image:url(Fry-Chicken.jpg);
-}
-.menu-img4 {
-    height: 200px;
-    width: 200px;
-    background-size: cover;
-    background-position: left;
-    background-image:url(Steamed-veggie.jpg);
-}
-.menu-img5 {
-    height: 200px;
-    width: 200px;
-    background-size: cover;
-    background-position: left;
-    background-image:url(Curry-chicken.jpg);
-}
-.menu-img6 {
-    height: 200px;
-    width: 200px;
-    background-size: cover;
-    background-position: left;
-    background-image:url(brownstrew.jpg);
-}
-.menu-img7 {
-    height: 200px;
-    width: 200px;
-    background-size: cover;
-    background-position: left;
-    background-image:url(brown-stew-chicken.png);
-}
-.menu-img8 {
-    height: 200px;
-    width: 200px;
-    background-size: cover;
-    background-position: left;
-    background-image:url(Pasta-Dish.jpg);
-}
-.menu-img9 {
-    height: 200px;
-    width: 200px;
-    background-size: cover;
-    background-position: left;
-    background-image:url(Egg-on-Lettice-Carrots-and\ Mushroom.jpg);
-}
-.menu-img10 {
-    height: 200px;
-    width: 200px;
-    background-size: cover;
-    background-position: left;
-    background-image:url(Clam-and-Vetable-Soup.jpg);
-}
-.menu-img11 {
-    height: 200px;
-    width: 200px;
-    background-size: cover;
-    background-position: left;
-    background-image:url(Mediterranean-Scallops.jpg);
-}
-.menu-img12 {
-    height: 200px;
-    width: 200px;
-    background-size: cover;
-    background-position: left;
-    background-image:url(Steamed-veggie.jpg);
-}
-.menu-img13 {
-    height: 200px;
-    width: 200px;
-    background-size: cover;
-    background-position: left;
-    background-image:url(Curry-chicken.jpg);
-}
-.menu-img14 {
-    height: 200px;
-    width: 200px;
-    background-size: cover;
-    background-position: left;
-    background-image:url(brownstrew.jpg);
-}
-.menu-img15 {
-    height: 200px;
-    width: 200px;
-    background-size: cover;
-    background-position: left;
-    background-image:url(brown-stew-chicken.pngv);
-}
-.menu-img16 {
-    height: 200px;
-    width: 200px;
-    background-size: cover;
-    background-position: left;
-    background-image:url(Steamed-veggie.jpg);
-}
-.menu-img17 {
-    height: 200px;
-    width: 200px;
-    background-size: cover;
-    background-position: left;
-    background-image:url(Jerk-Chicken.jpg);
-}
-.menu-img18 {
-    height: 200px;
-    width: 200px;
-    background-size: cover;
-    background-position: left;
-    background-image:url(Jerk-Pork.jpg);
-}
-.menu-img19 {
-    height: 200px;
-    width: 200px;
-    background-size: cover;
-    background-position: left;
-    background-image:url(Fry-Chicken.jpg);
-}
-.menu-img20 {
-    height: 200px;
-    width: 200px;
-    background-size: cover;
-    background-position: left;
-    background-image:url(Steamed-veggie.jpg);
-}
-.menu-img21 {
-    height: 200px;
-    width: 200px;
-    background-size: cover;
-    background-position: left;
-    background-image:url(Curry-chicken.jpg);
-}
-.menu-img22 {
-    height: 200px;
-    width: 200px;
-    background-size: cover;
-    background-position: left;
-    background-image:url(brownstrew.jpg);
-}
-.menu-img23 {
-    height: 200px;
-    width: 200px;
-    background-size: cover;
-    background-position: left;
-    background-image:url(brown-stew-chicken.pngv);
-}
-.menu-img24 {
-    height: 200px;
-    width: 200px;
-    background-size: cover;
-    background-position: left;
-    background-image:url(Steamed-veggie.jpg);
-}
 
-.menu-container{
-    width: 100%;
-    height: 140px;
-    background-color: rgb(238, 235, 58);
-    border-radius: 100px;
-    box-shadow: 0 0 32px black;
-}
-.menu-container:hover{
-    box-shadow: 0 0 60px black;
-    transform: scale(1.07);
-}
-
-.menu-c {
-    font-size: 16px;
-    padding: 16px;
-    text-align: center;
-}
-.menu-title {
-    font-size: 20px;
-    text-align: center;
-}
-
-.price {  
-    font-size: 28px;
-    margin-top: 16px;
-    text-align: center;
-    color: black;
-
-}
-
-
-
-
-
-
-
-.right-img {
-    height: 50%;
-    width: 50%;
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    align-self:left;
-}
-  
-footer{
-    font-size: small;
     
     background-color: rgb(2, 2, 1);
 }
